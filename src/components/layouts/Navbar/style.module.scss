@@ -1,0 +1,21 @@
+.main {
+  background-color: transparent;
+  color: white;
+  font: 1em sans-serif;
+  padding: 50px;
+
+  position: absolute;
+  width: 100%;
+  > div {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    div:nth-child(2) {
+      margin: 0px 80px;
+      > a {
+        margin: 0px 30px;
+      }
+    }
+  }
+}
