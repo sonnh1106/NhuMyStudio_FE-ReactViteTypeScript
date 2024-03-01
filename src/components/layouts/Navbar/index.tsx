@@ -1,6 +1,7 @@
+import style from "./style.module.scss";
 export default function Navbar() {
   return (
-    <div className="bg-transparent text-white font-bold font-sans p-12 absolute z-50 w-full">
+    <div className={style.main}>
       <div className="flex justify-center w-full">
         <div>Logo</div>
         <div className="mx-20">
